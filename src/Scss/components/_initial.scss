@@ -1,0 +1,33 @@
+.intial {
+  margin-top: 50px;
+  .container {
+    display: flex;
+    gap: 0 10rem;
+    flex-direction: row;
+    position: relative;
+    height: 34rem;
+    border-radius: 1rem;
+    overflow-x: hidden;
+    background-color: orange;
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      padding: 1rem 0 0 1rem;
+      font-size: 1.2rem;
+      display: grid;
+      place-items: center;
+    }
+    .image {
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      img {
+        height: 26rem;
+      }
+    }
+  }
+}

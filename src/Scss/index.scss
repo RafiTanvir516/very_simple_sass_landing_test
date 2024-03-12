@@ -1,0 +1,16 @@
+// * base
+@use "./base/base";
+
+// * components
+
+@use "./components/footer";
+@use "./components/navbar";
+@use "./components/scrollToTop";
+@use "./components/homebanner";
+@use "./components/free";
+@use "./components/initial";
+@use "./components/cards";
+
+// * Sections
+@use "./sections/clients";
+@use "./sections/home";
